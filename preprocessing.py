@@ -48,7 +48,6 @@ def basic_vid_stats(dataset_dir):
         print('The {} class contains {} videos.'.format(cat, len(os.listdir(cat_vids))))
     print()
 
-
 def trim_video(video_path, seconds):
     '''Funtion trims each end of the video by the number of seconds specified
     Returns: frames of the trimmed video
@@ -115,7 +114,6 @@ def get_uniform_frames(frames, num_frames_to_sample=1):
 
     return uniform_samplied_frames, num_frames
 
-
 def create_frame_dataset(dataset_dir, frame_dir, ext='.mkv', n_frames=1, test_size=0.2):
     # create frame storage directory
     if not os.path.exists(frame_dir):
@@ -158,7 +156,6 @@ def create_frame_dataset(dataset_dir, frame_dir, ext='.mkv', n_frames=1, test_si
             store_frames(test_frames, test_cat_dir)
     
     print('Frame extraction and storage complete!')
-
 
 def main():
     parser = argparse.ArgumentParser(description='Video Dataset Preprocessing')
