@@ -1,0 +1,31 @@
+Test Acc: 0.9775
+
+Confusion Matrix:
+[[39  0  0  1  0  0  0  0  0  0]
+ [ 0 40  0  0  0  0  0  0  0  0]
+ [ 1  0 39  0  0  0  0  0  0  0]
+ [ 0  0  1 39  0  0  0  0  0  0]
+ [ 0  0  0  0 39  1  0  0  0  0]
+ [ 0  0  0  0  0 40  0  0  0  0]
+ [ 0  0  1  1  0  0 38  0  0  0]
+ [ 0  0  0  2  0  0  0 38  0  0]
+ [ 0  0  0  0  0  0  0  0 39  1]
+ [ 0  0  0  0  0  0  0  0  0 40]]
+
+Classification Report:
+                precision    recall  f1-score   support
+
+         swamp       0.97      0.97      0.97        40
+        desert       1.00      1.00      1.00        40
+  birch_forest       0.95      0.97      0.96        40
+   dark_forest       0.91      0.97      0.94        40
+        plains       1.00      0.97      0.99        40
+  end_midlands       0.98      1.00      0.99        40
+   snowy_taiga       1.00      0.95      0.97        40
+        jungle       1.00      0.95      0.97        40
+crimson_forest       1.00      0.97      0.99        40
+       savanna       0.98      1.00      0.99        40
+
+      accuracy                           0.98       400
+     macro avg       0.98      0.98      0.98       400
+  weighted avg       0.98      0.98      0.98       400
