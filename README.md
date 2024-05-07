@@ -8,7 +8,7 @@
 - PyTorch Version:  2.1.0+cu121
 
 ### Repository Structure
-- `data_biomes/`: Contains the raw videos for the dataset
+- `biome_videos/`: Contains the raw videos for the dataset
 ```
 Original Video Structure
 - /biome_videos
